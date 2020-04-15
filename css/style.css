@@ -1,0 +1,25 @@
+* {
+	margin:0;
+	padding:0;
+}
+.col-sm-6 {
+	border:1px solid black;
+	border-style:none solid none none;
+
+}
+.col-sm-6 .form-row {
+	padding:1.25em;
+}
+.col-sm-6 .col-7 .form-control {
+	margin-bottom:1.25em;
+
+}
+.col-sm-6 textarea {
+	height:60vh;
+	margin-bottom:10px;
+	background-color:#FFF !important;
+	font-size:14px;
+}
+.row {
+	margin-right: 0px;
+}
