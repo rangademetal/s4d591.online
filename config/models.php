@@ -1,7 +1,7 @@
 <?php
 function setComponent() {
 
-	include_once '../config/database.php';
+	include_once 'database.php';
 	
 	if(isset($_POST["btnSubmit"])) {
 	    $title = $_POST["title"];
@@ -21,7 +21,7 @@ function setComponent() {
 
 function getComponent() {
 
-	include_once '../config/database.php';
+	include_once 'database.php';
 	$sql = "SELECT id, title, description, date_create FROM component";
 	$result = mysqli_query($link, $sql);
 
